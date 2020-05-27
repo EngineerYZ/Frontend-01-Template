@@ -246,6 +246,6 @@ void async function () {
     render(viewport,dom);
     viewport.save("viewport.jpg");
     // console.log(response);
-    console.log('dom: ', dom);
-    // console.log('dom: ' , JSON.stringify(dom, null, '   '))
+    console.log('css: ', dom);
+    // console.log('css: ' , JSON.stringify(css, null, '   '))
 }();
